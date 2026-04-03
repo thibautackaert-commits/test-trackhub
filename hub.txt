@@ -1,0 +1,5 @@
+hub testHub
+shortLabel Test Riboseq Hub
+longLabel Test RiboSeq Track Hub
+genomesFile genomes.txt
+email thibaut.ackaert@student.howest.be
