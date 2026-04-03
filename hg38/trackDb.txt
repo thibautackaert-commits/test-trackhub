@@ -2,7 +2,6 @@ track riboseqComposite
 compositeTrack on
 shortLabel RiboSeq Tracks
 longLabel RiboSeq Composite Track Group
-type BigWig
 visibility full
 
     track testTrack
