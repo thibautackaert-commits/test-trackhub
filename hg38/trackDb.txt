@@ -1,15 +1,22 @@
-track testTrack
-bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/phyloP100way/hg38.phyloP100way.bw
-shortLabel Test RiboSeq
-longLabel Test RiboSeq BigWig Track
-type bigWig
+track riboseqComposite
+compositeTrack on
+shortLabel RiboSeq Tracks
+longLabel RiboSeq Composite Track Group
+type BigWig
 visibility full
-color 255,128,0
 
-track testTrack2
-bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/phyloP100way/hg38.phyloP100way.bw
-shortLabel Test RiboSeq 2
-longLabel Test RiboSeq BigWig Track 2
-type bigWig
-visibility pack
-color 0,128,255
+    track testTrack
+    bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/phyloP100way/hg38.phyloP100way.bw
+    shortLabel Test RiboSeq
+    longLabel Test RiboSeq BigWig Track
+    type bigWig
+    visibility full
+    color 255,128,0
+
+    track testTrack2
+    bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/phyloP100way/hg38.phyloP100way.bw
+    shortLabel Test RiboSeq 2
+    longLabel Test RiboSeq BigWig Track 2
+    type bigWig
+    visibility pack
+    color 0,128,255
