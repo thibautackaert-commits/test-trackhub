@@ -1,5 +1,5 @@
 track testTrack
-bigDataUr1
+bigDataUrl
 https://www.encodeproject.org/files/ENCFF179NTB/@@download/ENCFF179NTB.bigWig
 shortLabel Test RiboSeq
 longLabel Test RiboSeq BigWig Track
