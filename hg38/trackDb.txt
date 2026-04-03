@@ -3,13 +3,13 @@ compositeTrack on
 shortLabel RiboSeq Tracks
 longLabel RiboSeq Composite Track Group
 visibility full
-type bed 3
+type bigWig
 
     track testTrack
     bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/phyloP100way/hg38.phyloP100way.bw
     shortLabel Test RiboSeq
     longLabel Test RiboSeq BigWig Track
-    type bigWig
+    type bigWig 0 1
     visibility full
     color 255,128,0
 
@@ -17,6 +17,6 @@ type bed 3
     bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/phyloP100way/hg38.phyloP100way.bw
     shortLabel Test RiboSeq 2
     longLabel Test RiboSeq BigWig Track 2
-    type bigWig
+    type bigWig 0 1
     visibility pack
     color 0,128,255
