@@ -1,5 +1,5 @@
 track testTrack
-bigDataUrl https://www.encodeproject.org/files/ENCFF179NTB/@@download/ENCFF179NTB.bigWig
+bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/phyloP100way/hg38.phyloP100way.bw
 shortLabel Test RiboSeq
 longLabel Test RiboSeq BigWig Track
 type bigWig
@@ -7,7 +7,7 @@ visibility full
 color 255,128,0
 
 track testTrack2
-bigDataUrl https://www.encodeproject.org/files/ENCFF179NTB/@@download/ENCFF179NTB.bigWig
+bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/phyloP100way/hg38.phyloP100way.bw
 shortLabel Test RiboSeq 2
 longLabel Test RiboSeq BigWig Track 2
 type bigWig
