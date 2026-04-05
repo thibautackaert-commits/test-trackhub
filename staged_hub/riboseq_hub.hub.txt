@@ -1,0 +1,5 @@
+hub hub
+shortLabel Riboseq Hub
+longLabel RiboSeq Track Hub
+genomesFile riboseq_hub.genomes.txt
+email thibaut.ackaert@student.howest.be
