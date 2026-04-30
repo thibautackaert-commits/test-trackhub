@@ -1,32 +1,35 @@
-track sample1
-bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/phyloP100way/hg38.phyloP100way.bw
-shortLabel sample1
-longLabel RiboSeq track sample1
+track riboseq_all
+container multiWig
+shortLabel RiboSeq All
+longLabel RiboSeq tracks all samples
 type bigWig
-color 255,128,0
 visibility full
+aggregate none
+showSubtrackColorOnUi on
 autoScale on
 alwaysZero on
 gridDefault on
 
-track sample2
-bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/phyloP100way/hg38.phyloP100way.bw
-shortLabel sample2
-longLabel RiboSeq track sample2
-type bigWig
-color 0,128,255
-visibility full
-autoScale on
-alwaysZero on
-gridDefault on
+    track sample1
+    bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/phyloP100way/hg38.phyloP100way.bw
+    shortLabel sample1
+    longLabel RiboSeq track sample1
+    type bigWig
+    color 255,128,0
+    parent riboseq_all
 
-track sample3
-bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/phyloP100way/hg38.phyloP100way.bw
-shortLabel sample3
-longLabel RiboSeq track sample3
-type bigWig
-color 0,200,100
-visibility full
-autoScale on
-alwaysZero on
-gridDefault on
+    track sample2
+    bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/phyloP100way/hg38.phyloP100way.bw
+    shortLabel sample2
+    longLabel RiboSeq track sample2
+    type bigWig
+    color 0,128,255
+    parent riboseq_all
+
+    track sample3
+    bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/phyloP100way/hg38.phyloP100way.bw
+    shortLabel sample3
+    longLabel RiboSeq track sample3
+    type bigWig
+    color 0,200,100
+    parent riboseq_all
